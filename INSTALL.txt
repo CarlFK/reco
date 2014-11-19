@@ -1,0 +1,12 @@
+#!/bin/bash -ex 
+
+sudo apt-get install \
+    libopencv-dev \
+    python-opencv \
+    gstreamer0.10-ffmpeg \
+    gstreamer0.10-plugins-base
+
+wget https://python-tesseract.googlecode.com/files/python-tesseract_0.7-1.4_amd64.deb
+sudo dpkg -i python-tesseract_0.7-1.4_amd64.deb
+
+  

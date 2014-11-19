@@ -1,0 +1,14 @@
+http://veyepar.nextdayvideo.com/volunteers/fosdem_2014/Getting_started_with_MySQL_Performance_Schema/16096206/
+
+imdecode - create an opencv image from gstreamer buffer?
+
+http://docs.opencv.org/modules/highgui/doc/reading_and_writing_images_and_video.html
+
+Works:
+
+ gst-launch-0.10 filesrc location=Become_a_logging_expert_in_30_.mp4 ! qtdemux name=demux demux.video_00 ! ffdec_h264 ! xvimagesink
+
+try:
+ gst_parse_launch
+
+use an on_pad_added callback

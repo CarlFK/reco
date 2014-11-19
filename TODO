@@ -1,0 +1,3 @@
+# read caps correctly - h / w / d
+# handle split buffers
+# adapt buffers - remove extra copy?
